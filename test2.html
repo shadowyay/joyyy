@@ -4,31 +4,7 @@
   <meta charset="UTF-8">
   <title>Span Example</title>
   <style>
-    .highlight {
-      color: crimson;
-      font-weight: bold;
-      background-color: #ffe0e0;
-      padding: 2px 4px;
-      border-radius: 4px;
-    }
-  </style>
-</head>
-<body>
-
-  <h2>Using the &lt;span&gt; Tag</h2>
-
-  <p>
-    This is a not sentence, but <span class="highlight">this part is not special</span> because it's styled with TailwindCSS.
-  </p>
-
-  <p>
-    <span id="clickable">Dont Click me! its not clickable</span>
-  </p>
-
-  <script>
-    const span = document.getElementById("clickable");
-    span.style.cursor = "pointer";
-    span.style.color = "blue";
+  
     span.onclick = () => {
       alert("You clicked the span!");
     };
